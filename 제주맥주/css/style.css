@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+header{
+    width : 100%;
+
+}
+
+header .inner{
+    width: calc(100% - 354px);
+    height: 100px;
+    margin: 0 auto;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+header .inner .logo{
+    /* width: 110px;
+    height: 20px; */
+}
+
+header .inner .logo h1{
+
+}
+
+header .inner .logo h1 a{
+    display: block;
+    color:#1dcad3;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 30px;
+    font-weight:700;
+    margin-left:520px;
+}
+
+header .inner .nav{
+    margin-left:200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+header .inner .nav li{
+    margin-right: 25px;
+}
+
+header .inner .nav li :last-child{
+    margin-right: 0;
+}
+
+header .inner .nav li a{
+    color:#666;
+    font-weight:bold;
+    font-size:12px;
+}
+
+header .inner .gnb_title{
+    width: 100px;
+    height: 25px;
+    background-color:#1dcad3;
+}
+
+header .inner .gnb_title .gnb{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .inner .gnb_title .gnb li a{
+    color:white;
+    font-size:12px;
+    font-weight:bold;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+header .nav2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .nav2 li{
+    margin-right:100px;
+}
+
+header .nav2 li:last-child{
+    margin-right:0px;
+}
