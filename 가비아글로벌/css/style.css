@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+header{
+    width : 100%;
+
+}
+
+header .inner{
+    width: calc(100% - 120px);
+    height: 60px;
+    margin: 0 auto;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    /* border: 1px solid red; */
+}
+
+header .inner .logo{
+    width: 168px;
+    height: 35px;
+}
+
+header .inner .logo h1{
+
+}
+
+header .inner .logo h1 a{
+    display: block;
+    width:168px;
+    height: 35px;
+    background-image:url("../img/logo.png");
+    background-repeat:no-repeat;
+    text-indent: -9999px; /* 접근성 때문에 넣은 항목 */
+}
+
+header .inner .nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+header .inner .nav li{
+    margin-right: 60px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight:400;
+}
+
+header .inner .nav li :last-child{
+    margin-right: 0;
+}
+
+header .inner .nav li a{
+    color:#000;
+    font-size:14px;
+}
+
+header .inner .gnb{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
